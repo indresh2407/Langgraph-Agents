@@ -1,0 +1,10 @@
+mkdir langraph-tut
+cd langraph-tut
+
+ 
+python -m vene myvenv            #create a virtual environment.
+source venv/bin/activate        #Activate virtual environment in mac
+
+pip install langraph           #installing langgraph
+pip install langchain          #installing langchain
+pip install dotenv             #enable environment variable
