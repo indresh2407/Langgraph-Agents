@@ -5,6 +5,10 @@ cd langraph-tut
 python -m vene myvenv            #create a virtual environment.
 source venv/bin/activate        #Activate virtual environment in mac
 
+#if Above code doesnt work to create Virtual Environment, Try this Conda way.
+conda create -n my_env python=3.9
+conda activate my_env
+
 pip install langgraph           #installing langgraph
 pip install langchain          #installing langchain
 pip install dotenv             #enable environment variable
