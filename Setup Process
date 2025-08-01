@@ -8,3 +8,6 @@ source venv/bin/activate        #Activate virtual environment in mac
 pip install langgraph           #installing langgraph
 pip install langchain          #installing langchain
 pip install dotenv             #enable environment variable
+
+
+#To crate a Jupyter Notebook you need to open VSCode, Create New File and save it as <file_name>.ipynb
